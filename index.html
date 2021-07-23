@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<title>GLORY STORES</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: 100% 100%; 
+  
+  background-image: url("images/Vintage\ Cycling\ Etsy\ Banner.gif");
+  min-height: 100%;
+}
+.lastitem{
+height:120px;
+background-color:black;
+text-align:center;
+color:gray;
+padding-top:20px;
+}
+.hours{
+    text-align:center;
+    margin: auto;
+  width: 40%;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: .005px;
+  
+ 
+}
+.hrs{
+    text-align: justify;
+    margin-top: 0%;
+   padding-left: 10px;
+}
+
+
+.w3-bar .w3-button {
+  padding: 10px;
+}
+
+</style>            
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>&nbsp;HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#collections" class="w3-bar-item w3-button"><i class="fa fa-shopping-cart"></i>&nbsp;COLLECTIONS</a>
+      <a href= "#about"class="w3-bar-item w3-button"><i class="fa fa-user"></i>&nbsp;ABOUT US </a>
+      
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT US</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#collections" onclick="w3_close()" class="w3-bar-item w3-button">COLLECTIONS</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+  
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+ 
+  
+</header>
+
+
+
+<!-- Collection Section -->
+<<div class="w3-container" style="padding:64px 16px" id="collections">
+  <h3 class="w3-center"><b>OUR COLLECTIONS</b></h3>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://source.unsplash.com/1600x900/?gifts" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Gift Items</h3>
+          <p class="w3-opacity"></p>
+          <p>A huge measure of exertion goes into picking items to fill our gifts containers to guarantee total consumer loyalty when each blessing is gotten. Look over our wide determination of specific crates, including events, for example, Business Gifts, Corporate Gift Baskets, Birthday, and a lot more to discover your ideal present for that unique individual.</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://source.unsplash.com/1600x900/?pens,pappers" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Office & School Supplies</h3>
+          <p class="w3-opacity"></p>
+          <p>We have an incredible collection of school and office supplies. At GLORY STORES, you can locate a vast accumulation of stationary item in all styles under one roof. Browse Highlighter Pen, Notepads, Pencil Case, Pencils, Scissors, Ruler, Glitter, Document Holder, Paper Clips, Tape, School Bags, Ink Cartridges, Printing Papers, Envelopes and Organizers etc,.</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://source.unsplash.com/1600x900/?shoes" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>footwears</h3>
+          <p class="w3-opacity"></p>
+          <p>For each one of those shoe sweethearts out there, GLORY STORES offer the one-stop goal to pick the correct match of footwears. Gone are the days when you needed to go from store to store to locate the correct style and size for yourself. At GLORY STORES, you can locate a vast accumulation of footwear in all the styles and sizes. Happy shopping to all! </p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://source.unsplash.com/1600x900/?mobiles,earphone" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Mobile Accessories</h3>
+          <p class="w3-opacity"></p>
+          <p>Our committed and proactive group of item specialists guarantee that we’re reliably capable offer the most recent and best embellishments for the most prominent gadgets. Browse defensive cases and covers, chargers, docks, screen defenders, Powerbanks, Earphones and a lot more. All accompany a multi day unconditional promise and a one year guarantee !</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <hr/>
+
+<!-- About Section -->
+<div class="w3-container w3-light-white" style="padding:64px 16px" id="about">
+    <h3 class="w3-center"><b>ABOUT US</b></h3>
+    <p class="w3-margin-right w3-large">Welcome to GLORY STORES – your #1 hotspot for school and office supplies, gift items, branded footwears, stationary utilities and more. We’re committed to giving you the plain best with an attention on most astounding quality, unwavering quality, client administration and uniqueness.
+      After establishment in 2010, GLORY STORES made considerable progress in the past 10+ years. We’re sure that you’ll make the most of our items as much as we appreciate offering them to you. </p>
+    <div class="hours">
+    <p><i class="fa fa-hourglass w3-center w3-large "></i> <b>WORKING HOURS</b></p><hr/>
+    <div class="hrs">
+    <p><i class="w3-center w3-large"></i> MON : 9.30 AM - 7.30PM</p>
+    <p><i class="w3-center w3-large"></i>TUE : 9.30 AM - 7.30PM</p>
+    <p><i class="w3-center w3-large"></i>WED : 9.30 AM - 7.30PM</p>
+    <p><i class="w3-center w3-large"></i>THU : 9.30 AM - 7.30PM</p>
+    <p><i class="w3-center w3-large"></i>FRI : 9.30 AM - 7.30PM</p>
+    <p><i class="w3-center w3-large"></i>SAT : 9.30 AM - 7.30PM</p>
+    <p><i class="w3-center w3-large"></i>SUN : Closed</p>
+</div>  
+</div> 
+  </div>
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:64px 16px" id="contact">
+  <h3 class="w3-center"><b>CONTACT US</b></h3>
+  <p class="w3-center w3-large">In the event that you’ve any inquiries or remarks, kindly don’t dither to get in touch with us. We’d love to get notification from you.</p>
+  <div style="margin-top:25px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Padanilathu Complex, Pakkil, Kottayam - 686012</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> +91-9495396009</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: glorystores@gmail.com</p>
+    <br>
+    <form id="submit-form" action="" >
+      <p><input class="w3-input w3-border" type="text" placeholder="Your Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="email" placeholder="Your Email Id" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="tel" placeholder="Mobile Number (10digits)" pattern="[0-9]{10}" required name="Mobile"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    
+    
+  </div>
+</div>
+<script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbxqaXtAXVhJVk4Qfwvm2McSgZ9ZA7l_eR3O1cZK/exec",
+          data:$("#submit-form").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
+
+
+<!-- Footer -->
+<footer class="lastitem">
+   <p> Copyright &#169; glorystores.in<br/>Developed by <a href="https://www.fiverr.com/gigendratm?up_rollout=true" title="fiverr gig" target="_blank" class="w3-hover-text-white">GIGENDRA T M <br/></a></p>
+</footer>
+ 
+<script>
+// Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
